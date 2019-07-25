@@ -1,0 +1,25 @@
+/********** Setting the fonts section ***************/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+	margin : 0;
+	position : relative;
+	font-family : Montserrat, serif;
+}
+
+h1{
+	text-align : center;
+}
+
+
+.flexNticker{
+	padding : 30px 20px;
+	margin : auto;
+	width : 700px;
+	
+	font-size : 40px;
+}
+
+.flexNticker .data{
+	display : none;
+}

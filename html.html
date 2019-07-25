@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>jQuery Text Effects</title>
+	
+	<link rel = "stylesheet" href = "css/flexNticker.css"/>
+<!--	<link rel="stylesheet" type = "text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> -->
+	<script type = "text/javascript" src = "js/jquery.min.js"></script>	
+	<script type = "text/javascript" src = "js/jquery-ui.min.js"></script>	
+	<script type = "text/javascript" src="js/jTextEffect.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<script type= "text/javascript">
+	$(document).ready(function(){
+	
+		$(".flexNticker").jTextEffect({animationTime : '1000',  //Time for each animation. If you want it to be occured just once. set it to '0' 
+																interval : '2000',  	// The delay between two animations. 'animationTime' must be less then 'interval'
+																textSource : '.flexNticker ul.data>li'   // Source of the texts.
+																});
+
+	})
+	
+	
+	</script>
+	
+	
+	
+</head>
+
+	
+	<div class = "flexNticker">
+
+		<div class = "ticker"></div>		
+
+		<ul class = "data">
+			<li data-anim = "type1">This package contains 15 Effects.</li>
+			<li data-anim = "type2">The effects are dynamic</li>
+			<li data-anim = "type3">Can be usable as a text slider.</li>
+			<li data-anim = "type4">How to use this plugin?</li>
+			<li data-anim = "type5">Documentation is provided.</li> 
+			<li data-anim = "type6">This is exclusive on condecanyon</li>
+			<li data-anim = "type7">Usable for various purposes.</li>
+			<li data-anim = "type8">It is simple, dynamic and easy.</li>
+			<li data-anim = "type9">It is fully based on jQuery.</li>
+			<li data-anim = "type10">Cross browser support.</li>
+			<li data-anim = "type11">Clean and simple design.</li>
+			<li data-anim = "type13">Can be used as newsticker.</li>
+			<li data-anim = "type15">They are easy to use.</li>
+			<li data-anim = "type14">So, this is the last one. :) .</li>
+		</ul>
+
+	</div>
+
+	
+<body>
+
+
+
+</body>
+
+</html>
